@@ -84,8 +84,7 @@ class RemoteControl():
     # We modified this method to see the tv status.
     def __str__(self):
 
-        return "Tv State: {}\nTv Vol: {}\nChannel List: {}\nchannel watched: {}".format(self.tv_state, self.tv_vol,
-                                                                                        self.channel_list, self.channel)
+        return "Tv State: {}\nTv Vol: {}\nChannel List: {}\nchannel watched: {}".format(self.tv_state, self.tv_vol,self.channel_list, self.channel)
 
 cmd = RemoteControl()
 print("""
